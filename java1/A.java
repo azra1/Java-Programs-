@@ -5,7 +5,7 @@ class A
  		try
 		{	int y[]=new int[arg.length];
 			System.out.println("Y="+y[1]);
-			y[10]=20;
+			y[11]=20;
 			
 		}
 		catch(Exception e)
