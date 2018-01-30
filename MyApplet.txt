@@ -1,0 +1,9 @@
+import java.awt.Graphics;
+import java.applet.Applet;
+public class MyApplet extends Applet
+{
+	public void paint(Graphics g)
+	{
+		g.drawString("Applet Program",200, 200);
+	}
+}

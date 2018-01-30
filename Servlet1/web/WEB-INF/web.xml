@@ -1,0 +1,17 @@
+<web-app>  
+  
+<servlet>  
+<servlet-name>GoogleQuery</servlet-name>  
+<servlet-class>GoogleQuery</servlet-class>  
+</servlet>  
+  
+<servlet-mapping>  
+<servlet-name>GoogleQuery</servlet-name>  
+<url-pattern>//GoogleQuery</url-pattern>  
+</servlet-mapping>  
+  
+<welcome-file-list>  
+    <welcome-file>query.html</welcome-file>  
+</welcome-file-list>  
+  
+</web-app>  
